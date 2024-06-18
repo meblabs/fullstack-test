@@ -1,0 +1,69 @@
+{
+  "errors": {
+    "1": "Errore di sistema: operazione non completata, aggiornare la pagina o provare in seguito",
+    "2": "Troppe richieste da questo IP, riprova più tardi",
+    "200": "Campo non valido",
+    "201": "Completa questo campo",
+    "202": "Parametri addizionali non permessi",
+    "203": "Resource already exists",
+    "210": "Email non valida",
+    "211": "Numero di telefono non valido",
+    "213": "La grandezza del file deve minore di %s MB!",
+    "300": "Email non corretta",
+    "301": "Password non corretta",
+    "302": "Account non attivo",
+    "303": "Account cancellato",
+    "304": "Email già presente",
+    "305": "Auth reset, aggiornare la password",
+    "306": "Il refresh token non esiste",
+    "307": "Refresh token scaduto",
+    "308": "Refresh token non autorizzato",
+    "400": "Richiesta sbagliata",
+    "401": "Non autorizzato",
+    "402": "Non permesso (CORS policy)",
+    "403": "Proibito",
+    "404": "Non trovato",
+    "406": "Non accettabile",
+    "410": "Proibito",
+    "411": "Proibito"
+  },
+  "networkError": {
+    "title": "Errore di rete",
+    "text": "C'è stato un problema di rete. Potrebbe essere dovuto al CORS o a un'improvvisa mancanza di internet. Al momento non è possibile saperlo."
+  },
+  "fields": {
+    "email": "email",
+    "password": "password",
+    "confirmPassword": "conferma la password",
+    "missingPassword": "Inserisci la password",
+    "missingPasswordConfirmation": "Conferma la password",
+    "datetime": "DD-MM-YYYY HH:mm",
+    "country": "Paese",
+    "zipcode": "CAP",
+    "city": "Città",
+    "address": "Indirizzo",
+    "phone": "Telefono",
+    "vatNumber": "Partita IVA",
+    "lastname": "Cognome",
+    "fullname": "Nome e cognome"
+  },
+  "imageUploader": {
+    "crop": "Ritaglia immagine",
+    "text": "Click o trascina il file in questa area per caricarlo",
+    "opt": "file supportato: JPG, PNG"
+  },
+  "404": {
+    "title": "Oops!",
+    "text": "Sembra che non riusciamo a trovare la pagina che stai cercando...",
+    "link": "Torna alla homepage!"
+  },
+  "500": {
+    "title": "Under construction...",
+    "text": "...",
+    "link": "Torna alla homepage!"
+  },
+  "langs": {
+    "IT": "Italian",
+    "EN": "English"
+  }
+}

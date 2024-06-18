@@ -1,0 +1,16 @@
+.ant-table-cell.button-cell {
+  padding: 8px !important;
+  text-align: center;
+}
+
+.ant-table-cell {
+  & .ant-form-item {
+    margin-bottom: 0;
+  }
+}
+
+.table-left-actions {
+  & .ant-select {
+    @apply w-full md:w-auto md:flex-none;
+  }
+}

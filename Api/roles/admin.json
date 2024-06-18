@@ -1,0 +1,13 @@
+{
+  "users": {
+    "create": ["*"],
+    "read": ["*"],
+    "update": ["*"],
+    "delete": ["*"],
+    "invite": ["*"]
+  },
+  "companies": {
+    "read": ["*"],
+    "update": ["*"]
+  }
+}

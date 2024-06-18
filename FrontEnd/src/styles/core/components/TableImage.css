@@ -1,0 +1,32 @@
+.ant-table-cell.table-image {
+  padding: 8px !important;
+  width: 100px;
+
+  & .ant-image {
+    min-width: 50px;
+  }
+
+  & .table-image-empty {
+    text-decoration: none;
+
+    &::before {
+      content: '';
+      display: block;
+      padding-top: 100%;
+    }
+
+    & > * {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+    }
+  }
+
+  &.fullhd {
+    width: 100px;
+    & .table-image-empty::before {
+      padding-top: 56.25%;
+    }
+  }
+}

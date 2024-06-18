@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-prettier/recommended"],
+  "rules": {
+    "at-rule-empty-line-before": null,
+    "import-notation": null,
+    "rule-empty-line-before": null,
+    "custom-property-pattern": null,
+    "shorthand-property-no-redundant-values": null,
+    "selector-nested-pattern": "^&",
+    "function-no-unknown": [true, { "ignoreFunctions": ["theme"] }]
+  }
+}

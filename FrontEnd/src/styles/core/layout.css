@@ -1,0 +1,48 @@
+:root {
+  --gutter: 1rem;
+}
+
+/* ANT ROW */
+.gutter-row {
+  margin: 0 calc(-1 * var(--gutter) / 2);
+  row-gap: var(--gutter) !important;
+
+  & > .ant-col {
+    padding: 0 calc(var(--gutter) / 2);
+  }
+}
+
+/* SIDEBAR */
+.ant-layout-sider {
+  display: none;
+
+  & .ant-layout-sider-trigger {
+    background-color: transparent !important;
+  }
+}
+
+@media screen and (min-width: theme('screens.md')) {
+  .ant-layout-sider {
+    display: block;
+  }
+}
+
+/* CONTENT PANEL */
+.content-panel {
+  & .ant-tabs-content {
+    z-index: 1;
+    padding: 0 var(--gutter) var(--gutter);
+  }
+}
+
+/* INFINITE SCROLL */
+.infinite-overflow {
+  /* stylelint-disable-next-line selector-class-pattern */
+  & .infinite-scroll-component__outerdiv {
+    margin: calc(-1 * var(--gutter));
+
+    & .infinite-scroll-component {
+      padding: calc(var(--gutter));
+    }
+  }
+}

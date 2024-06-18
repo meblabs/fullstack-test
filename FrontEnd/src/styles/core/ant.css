@@ -1,0 +1,102 @@
+/* CARD */
+.content-panel {
+  & .ant-card {
+    height: 100%;
+
+    &.height-auto {
+      height: auto;
+    }
+
+    & .ant-col {
+      & .ant-input-number-group-wrapper,
+      & .ant-picker {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.ant-card-extra {
+  padding: 0;
+
+  & .ant-form-item {
+    margin-bottom: 0;
+  }
+}
+
+.ant-card-body {
+  & .ant-form-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* BTN */
+.ant-btn > svg + span,
+.ant-btn > span + svg {
+  margin-left: 8px;
+}
+
+/* TAG */
+.ant-tag {
+  & > svg + span,
+  & > span + svg {
+    margin-left: 8px;
+  }
+}
+
+.ant-table-cell {
+  & .ant-tag {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* BADGE */
+.ant-badge.market-badge {
+  & .ant-badge-count {
+    background: theme('colors.primary');
+  }
+}
+
+/* TIMELINE */
+.ant-timeline .ant-timeline-item-head-custom {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* DIVIDER */
+.ant-divider.small {
+  &.ant-divider-horizontal {
+    margin: 12px 0;
+  }
+  &.ant-divider-vertical {
+    margin: 0 12px;
+  }
+}
+
+/* COLLAPSE */
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  align-items: center;
+}
+
+/* LABEL */
+.field-label-block {
+  & .ant-form-item-label {
+    & label {
+      display: block;
+    }
+  }
+}
+
+/* AVATAR */
+.ant-avatar.ant-avatar-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

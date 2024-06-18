@@ -1,0 +1,15 @@
+{
+  "users": {
+    "create:any": ["*"],
+    "read:any": ["*"],
+    "update:any": ["*"],
+    "delete:any": ["*"],
+    "invite:any": ["*"]
+  },
+  "companies": {
+    "create:any": ["*"],
+    "read:any": ["*"],
+    "update:any": ["*"],
+    "delete:any": ["*"]
+  }
+}

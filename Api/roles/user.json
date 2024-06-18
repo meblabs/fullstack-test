@@ -1,0 +1,9 @@
+{
+  "users": {
+    "read": ["*"],
+    "update": ["*"]
+  },
+  "companies": {
+    "read": ["*"]
+  }
+}

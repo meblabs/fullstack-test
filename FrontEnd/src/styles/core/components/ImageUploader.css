@@ -1,0 +1,14 @@
+.image-uploader .ant-upload.ant-upload-drag {
+  height: 300px;
+  box-sizing: content-box;
+  position: relative;
+}
+.image-uploader.fill .ant-upload.ant-upload-drag {
+  height: 100%;
+}
+
+.image-uploader {
+  & .ant-upload {
+    padding: 0 !important;
+  }
+}

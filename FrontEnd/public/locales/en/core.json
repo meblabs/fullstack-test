@@ -1,0 +1,69 @@
+{
+  "errors": {
+    "1": "System error: operation not completed, please refresh the page or try again later",
+    "2": "Too many requests from this IP, please try again later",
+    "200": "Field value invalid",
+    "201": "Please complete this field",
+    "202": "Additional parameters are not permitted",
+    "203": "Resource already exists",
+    "210": "Invalid Email",
+    "211": "Invalid phone number",
+    "213": "The file size must be less then %s MB!",
+    "300": "Wrong email",
+    "301": "Wrong password",
+    "302": "Inactive account",
+    "303": "Deleted account",
+    "304": "The email already exists",
+    "305": "Auth reset, please change password",
+    "306": "Refresh token does not exist",
+    "307": "Expired refresh token",
+    "308": "Unauthorized refresh token",
+    "400": "Bad request",
+    "401": "Unauthorized",
+    "402": "Blocked by CORS",
+    "403": "Forbidden",
+    "404": "Not found",
+    "406": "Not acceptable",
+    "410": "Forbidden",
+    "411": "Forbidden"
+  },
+  "networkError": {
+    "title": "Network Error",
+    "text": "A network error occurred. This could be a CORS issue or a dropped internet connection. It is not possible for us to know."
+  },
+  "fields": {
+    "email": "email",
+    "password": "password",
+    "confirmPassword": "confirm password",
+    "missingPassword": "Please, input your password",
+    "missingPasswordConfirmation": "Please, confirm your password",
+    "datetime": "YYYY-MM-DD HH:mm",
+    "country": "Country",
+    "zipcode": "Zip code",
+    "city": "City",
+    "address": "Address",
+    "phone": "Phone",
+    "vatNumber": "Vat number",
+    "lastname": "Lastname",
+    "fullname": "Fullname"
+  },
+  "imageUploader": {
+    "crop": "Crop image",
+    "text": "Click or drag file to this area to upload",
+    "opt": "Support file: JPG, PNG"
+  },
+  "404": {
+    "title": "Oops!",
+    "text": "We can't seem to find the page you're looking for...",
+    "link": "Back to homepage!"
+  },
+  "500": {
+    "title": "Under construction...",
+    "text": "...",
+    "link": "Back to homepage!"
+  },
+  "langs": {
+    "IT": "Italian",
+    "EN": "English"
+  }
+}

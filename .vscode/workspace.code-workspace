@@ -1,0 +1,51 @@
+{
+  "folders": [
+    {
+      "name": "Root",
+      "path": ".."
+    },
+    {
+      "name": "Api",
+      "path": "../Api"
+    },
+    {
+      "name": "FrontEnd",
+      "path": "../FrontEnd"
+    }
+  ],
+  "settings": {
+    "eslint.workingDirectories": [
+      "./Api",
+      "./FrontEnd",
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.exclude": {
+      "Api/": true,
+      "FrontEnd/": true
+    },
+    "css.validate": false,
+    "stylelint.validate": ["css", "less", "postcss", "scss"],
+    "tailwindCSS.experimental.configFile": "./FrontEnd/src/theme/tailwind.config.js",
+    "[shellscript]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[dotenv]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[ignore]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[dockerfile]": {
+      "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}
