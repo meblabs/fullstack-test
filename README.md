@@ -1,5 +1,7 @@
 # Fullstack Test
 
+**ONLY FOR ITALIAN GUYS**
+
 This repository is designed to test the technical skills of candidates for a full stack developer position. It consists of the following structure:
 
 - **Api**: The backend folder built with Node.js.
